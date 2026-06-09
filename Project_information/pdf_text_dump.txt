@@ -1,0 +1,155 @@
+3
+4
+5
+8
+13
+7
+Executive Summary
+Market Value
+(millions)
+Quarter
+FYTD
+1 Year
+3 Years
+5 Years
+10 Years
+Total Plan
+$53,914
+2.39%
+6.79%
+14.45%
+11.88%
+9.04%
+8.68%
+Policy Benchmark
+2.33%
+7.23%
+14.04%
+11.26%
+7.12%
+8.00%
+Net Benefit Payments ($ millions)
+$9
+$140
+$251
+$447
+( $608)
+( $5,258)
+Net Exposure
+Policy Targets
+ Portfolio 
+ Policy Target 
+ Difference 
+ FYTD 
+ 1 Year 
+3 Years
+5 Years
+Public Equity
+43.7%
+43.0%
+0.7%
+11.28%
+22.48%
+20.38%
+11.15%
+Bonds
+25.9%
+25.0%
+0.9%
+2.63%
+6.62%
+4.07%
+0.09%
+Private Equity
+12.9%
+12.0%
+0.9%
+2.91%
+10.72%
+7.32%
+14.38%
+Private Debt
+6.9%
+8.0%
+-1.1%
+3.95%
+8.62%
+9.94%
+10.77%
+Real Assets
+10.5%
+12.0%
+-1.5%
+0.44%
+1.11%
+-0.25%
+6.10%
+Portable Alpha Hedge Funds6
+10.0%
+n/a
+n/a
+5.79%
+7.21%
+4.21%
+6.61%
+Total Plan
+100.0%
+100.0%
+0.0%
+6.79%
+14.45%
+11.88%
+9.04%
+Pursuant to S.C. Code Ann. §9-16-90 (A) 
+Exposure
+Allocation / Exposure3,5
+FYTD Contributions to Plan Value4
+Net of Fee Returns by Time Period1,2
+Annualized
+Annualized
+December 31, 2025
+Quarterly Report
+6Portable Alpha Hedge Funds are expressed as gross exposure but, as collateral supporting the Overlay program, net to zero when calculating total Plan market value.  Performance is expressed net of SOFR as an estimate for Overlay financing 
+costs. There is no allocation to Portable Alpha Hedge Funds in the policy allocation.
+This report was compiled by staff of the Retirement System Investment Commission and has not been reviewed, approved or verified by the external investment managers. No information contained herein should be used to calculate returns or 
+compare multiple funds, including private equity funds. 
+2Effective 7/1/2021 the actuarial assumed rate of return is 7.00% and is composed of an assumed 2.25% inflation rate and an assumed 4.75% real rate of return, net of investment and administrative expenses.
+4.Values are in millions.  Ending Value may differ slightly from Beginning Value plus Net Benefit Payments and Investment Performance due to rounding.
+5The Bonds asset class includes the net Short Duration and Cash market value which consists of the aggregate cash held at the custodian, Russell Investments, and the strategic partnerships.
+1Top-level Plan returns are from Bank of New York Mellon (BNY) and are time-weighted, total return calculations, net of fees and expenses. All returns are expressed in U.S. dollars. Periods greater than one year are annualized. Fiscal Year ends 
+June 30th. Policy benchmark is the blend of the asset class policy benchmarks using policy weights.  Asset class benchmarks and policy weights are reviewed annually by the Commission’s  consultant, adopted by the Commission, and have 
+changed over time.  The policy benchmark return history represents a blend of these past policies. 
+3Asset Class allocations and returns are calculated using values provided by BNY and adjusted for overlay exposures provided by Russell Investments.  Asset Class exposures may not add up to 100% due to rounding.
+0.00%
+5.00%
+10.00%
+15.00%
+20.00%
+Quarter
+FYTD
+1 Year
+3 Years
+5 Years
+10 Years
+Plan Return
+Policy Return
+7.00% Target
+50,339 
+140 
+3,435 
+53,914 
+Beginning Value
+Net Benefit Payments
+Investment Performance
+Ending Value
+45,000 
+46,000 
+47,000 
+48,000 
+49,000 
+50,000 
+51,000 
+52,000 
+53,000 
+54,000 
+55,000 

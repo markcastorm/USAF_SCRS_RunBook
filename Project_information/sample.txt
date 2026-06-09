@@ -1,0 +1,785 @@
+<html lang="en" class="fa-events-icons-ready"><head>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LWM3VGJY8J"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LWM3VGJY8J');
+  </script>
+  <title>Investment Reports - RSIC</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=11">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Scales layout for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="https://www.rsic.sc.gov/what-we-do/investment-reports.html">
+  <!-- Styles -->
+  <link href="../_css/global.css" rel="stylesheet" type="text/css">
+  <!-- Site Icons -->
+  <link rel="icon" href="../_images/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../_images/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../_images/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../_images/touch-icon-iphone-retina.png">
+  <!-- jQuery Link -->
+  <script src="../_scripts/jquery-3.2.1.min.js"></script>
+  <!-- Icon Font -->
+  <script src="https://use.fontawesome.com/264d503060.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/264d503060.css" media="all">
+  <!-- Fade Banner to white on scroll -->
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        $("#bannerContainer").css("opacity", 1 - $(window).scrollTop() / 400);
+      });
+    });
+  </script>
+  <!-- Creates the Menu link drop down on mobile devices -->
+  <script>
+    $(function () {
+      var pull = $("#pull");
+      menu = $(".mnuMain");
+      menuHeight = menu.height();
+
+      $(pull).on("click", function (e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+    });
+  </script>
+  <!-- Creates the Sub Page links drop down on mobile devices -->
+  <script>
+    $(function () {
+      var pullSub = $("#pullSub");
+      menuSub = $("#sideLinks");
+      menuHeightSub = menu.height();
+
+      $(pullSub).on("click", function (e) {
+        e.preventDefault();
+        menuSub.slideToggle();
+      });
+    });
+  </script>
+  <style>
+    li {
+      list-style: none;
+    }
+
+    .threeColumns {
+      position: relative;
+      width: 29%;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin: 1%;
+    }
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1299.0" data-gr-ext-installed="">
+  <div id="headerFixed">
+    <div id="headerContainer">
+      <div id="headerWrap">
+        <div id="topNavigation">
+          <div id="tn">
+            <div id="tnLeft">
+              <b><a href="https://sc.gov" target="_blank" style="text-decoration: none; color: #274072;">State of South
+                  Carolina</a></b>
+            </div>
+            <!-- #tnLeft -->
+            <div id="tnCenter"></div>
+            <!-- #tnCenter -->
+            <div id="tnRight">
+              <div class="contact">
+                <ul class="mnuMain">
+                  <li>
+                    <img src="../_images/ico-search.png" style="
+                          vertical-align: middle;
+                          width: 20px;
+                          height: auto;
+                        " alt="search icon">
+                    <a href="../search.html"> Search</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="../careers.html">Careers</a> |
+                  </li>
+                  <li>
+                    <a href="../procurement.html">Procurement</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="../contact-us.html">Contact Us</a>
+                  </li>
+                  <!--<li><a href="">Social Media</a></li>-->
+                </ul>
+              </div>
+              <!-- .contact -->
+            </div>
+            <!-- #tnRight -->
+          </div>
+          <!-- #tn -->
+        </div>
+        <!-- #topNavigation -->
+        <div id="header">
+          <div id="headerLeft">
+            <a href="../index.html"><img src="../_images/rsic-header-logo.svg" alt="RSIC Logo"></a>
+          </div>
+          <!-- #headerLeft -->
+          <div id="headerCenter"></div>
+          <!-- #headerCenter -->
+          <div id="headerRight"></div>
+          <!-- #headerRight -->
+        </div>
+        <!-- #header -->
+      </div>
+      <!-- #headerWrap -->
+    </div>
+    <!-- #headerContainer -->
+    <div id="navContainer">
+      <div class="nav" id="sticky">
+        <div id="sticky-anchor"></div>
+        <a href="#" id="pull">Menu ≡</a>
+        <ul class="mnuMain">
+          <li>
+            <a href="../who-we-are/at-a-glance.html">Who We Are</a>
+            <ul class="mnuSub">
+              <li>
+                <a href="../who-we-are/at-a-glance.html">At a Glance</a>
+              </li>
+
+              <li>
+                <a href="../_documents/Governance-Policy-Manual.pdf" target="_blank">Governance
+                  <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="../who-we-are/commissioners.html">Commissioners</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../what-we-do/portfolio-allocation.html">What We Do</a>
+            <ul class="mnuSub">
+              <li>
+                <a href="../what-we-do/portfolio-allocation.html">Portfolio Allocation</a>
+              </li>
+              <li>
+                <a href="../what-we-do/investment-reports.html">Investment Reports</a>
+              </li>
+              <li>
+                <a href="../what-we-do/investment-plan-objectives-policies.html">Investment Plan/ Objectives/
+                  Policies</a>
+              </li>
+              <li>
+                <a href="../what-we-do/proxy-voting.html">Proxy Voting</a>
+              </li>
+              <li>
+                <a href="../what-we-do/investment-consultants.html">Investment Consultants</a>
+              </li>
+              <li>
+                <a href="../what-we-do/fee-transparency.html">Fee Transparency</a>
+              </li>
+              <li>
+                <a href="../what-we-do/glossary-of-investment-terms.html">Glossary of Investment Terms</a>
+              </li>
+              <li><a href="../what-we-do/peba.html">PEBA</a></li>
+              <!--<li><a href="">FAQ</a></li>-->
+            </ul>
+          </li>
+          <li>
+            <a href="../commission-meetings/commission-meeting-dates.html">Commission Meetings</a>
+            <ul class="mnuSub">
+              <li>
+                <a href="../commission-meetings/commission-meeting-dates.html">Commission Meeting Dates</a>
+              </li>
+              <li>
+                <a href="../commission-meetings/commission-materials.html">Commission Materials</a>
+              </li>
+              <li>
+                <a href="../commission-meetings/committee-materials.html">Committee Materials</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../media/media-inquiries.html">Media</a>
+            <ul class="mnuSub">
+             
+              <li>
+                <a href="../media/media-inquiries.html">Media Inquiries</a>
+              </li>
+              <li>
+                <a href="../media/press-releases.html">Press Releases</a>
+              </li>
+              <li><a href="../media/video-center.html">Video Center</a></li>
+              
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+      <!-- .nav -->
+    </div>
+    <!-- #navContainer -->
+  </div>
+  <!-- #headerFixed -->
+  <div id="pageWrapper">
+    <div id="bannerContainer">
+      <img src="../_images/banners/tubing.jpg" alt="River tubing in SC">
+    </div>
+    <!-- #bannerContainer -->
+    <div id="contentContainer">
+      <div id="pageTitle">
+        <h1>Investment Reports</h1>
+      </div>
+      <div id="content">
+        <div class="mobileShow">
+          <a href="#" id="pullSub">In This Section ▾</a>
+          <ul id="sideLinks">
+            <li>
+              <a href="../what-we-do/portfolio-allocation.html">Portfolio Allocation</a>
+            </li>
+            <li class="mnuItemActive">
+              <a href="../what-we-do/investment-reports.html">Investment Reports</a>
+            </li>
+            <li>
+              <a href="../what-we-do/investment-plan-objectives-policies.html">Investment Plan/ Objectives/ Policies</a>
+            </li>
+            <li>
+              <a href="../what-we-do/investment-consultants.html">Investment Consultants</a>
+            </li>
+            <li>
+              <a href="../what-we-do/fee-transparency.html">Fee Transparency</a>
+            </li>
+            <li>
+              <a href="../what-we-do/glossary-of-investment-terms.html">Glossary of Investment Terms</a>
+            </li>
+            <li><a href="../what-we-do/peba.html">PEBA</a></li>
+            <!--<li><a href="">FAQ</a></li>-->
+          </ul>
+        </div>
+        <!-- .mobileShow -->
+        <p></p>
+
+        <h2>Annual / Quarterly Investment Reports*</h2>
+        <span class="subtext">* Arranged by fiscal year ended June 30th</span>
+        <!-- <li class="reportListItem">
+              <a href="../_documents/investment-reports/" target="blank">2023.06.30</a>
+            </li> -->
+         <h3>2026</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <!-- <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2026-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li> -->
+            <!-- <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/acfr_2026.pdf" target="_blank">ACFR</a>
+            </li> -->
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2025.09.30-investment-report.pdf" target="blank">2025.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2025.12.31-investment-report.pdf" target="blank">2025.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2026.03.31-investment-report-accessible.pdf" target="blank">2026.03.31</a>
+            </li>
+            <!-- <li class="reportListItem">
+              <a href="../_documents/investment-reports/2026.06.30-investment-report.pdf" target="blank">2026.06.30</a>
+            </li> -->
+            <!-- <li class="reportListItem">
+              <a href="../_documents/investment-reports/2026.06.30-gips-compliance-report.pdf" target="_blank">GIPS Compliance Report</a>
+            </li> -->
+          </ul>
+        </div>
+        
+        <h3>2025</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2025-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/acfr_2025.pdf" target="_blank">ACFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2024.09.30-investment-report.pdf" target="blank">2024.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2024.12.31-investment-report.pdf" target="blank">2024.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2025.03.31-investment-report.pdf" target="blank">2025.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2025.06.30-investment-report.pdf" target="blank">2025.06.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2025.06.30-gips-compliance-report.pdf" target="_blank">GIPS Compliance Report</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2024</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2024-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/acfr_2024.pdf" target="_blank">ACFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2023.09.30-investment-report.pdf" target="blank">2023.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2023.12.31-investment-report.pdf" target="blank">2023.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2024.03.31-investment-report.pdf" target="blank">2024.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2024.06.30-investment-report.pdf" target="blank">2024.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2023</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2023-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/acfr_2023.pdf" target="_blank">ACFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2022.09.30-investment-report.pdf" target="blank">2022.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2022.12.31-investment-report.pdf" target="blank">2022.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2023.03.31-investment-report.pdf" target="blank">2023.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2023.06.30-investment-report.pdf" target="blank">2023.06.30</a>
+            </li>
+      </ul>
+        </div>
+        <h3>2022</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2022-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/acfr_2022.pdf" target="_blank">ACFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2021.09.30-investment-report.pdf" target="blank">2021.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2021.12.31-investment-report.pdf" target="blank">2021.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2022.03.31-investment-report.pdf" target="blank">2022.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2022.06.30-investment-report.pdf" target="blank">2022.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2021</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2021-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2021.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2020.09.30-investment-report.pdf" target="blank">2020.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2020.12.31-investment-report.pdf" target="blank">2020.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2021.03.31-investment-report.pdf" target="blank">2021.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2021.06.30-investment-report.pdf" target="blank">2021.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2020</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2020-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2020.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2019.09.30-investment-report.pdf" target="blank">2019.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2019.12.31-investment-report.pdf" target="blank">2019.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2020.03.31-investment-report.pdf" target="blank">2020.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2020.06.30-investment-report.pdf" target="blank">2020.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2019</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2019-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2019.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2018.09.30-investment-report.pdf" target="blank">2018.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2018.12.31-investment-report.pdf" target="blank">2018.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2019.03.31-investment-report.pdf" target="blank">2019.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2019.06.30-investment-report.pdf" target="blank">2019.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2018</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2018-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2018.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2017.09.30-investment-report.pdf" target="blank">2017.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2017.12.31-investment-report.pdf" target="blank">2017.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2018.03.31-investment-report.pdf" target="blank">2018.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2018.06.30-investment-report.pdf" target="blank">2018.06.30</a>
+            </li>
+          </ul>
+        </div>
+       <h3>2017</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2017-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2017.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2016.09.30-investment-report.pdf" target="blank">2016.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2016.12.31-investment-report.pdf" target="blank">2016.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2017.03.31-investment-report.pdf" target="blank">2017.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2017.06.30-investment-report.pdf" target="blank">2017.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2016</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2016-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2016.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2015.09.30-investment-report.pdf" target="blank">2015.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2015.12.31-investment-report.pdf" target="blank">2015.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2016.03.31-investment-report.pdf" target="blank">2016.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2016.06.30-investment-report.pdf" target="blank">2016.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2015</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2015-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2015.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2014.09.30-investment-report.pdf" target="blank">2014.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2014.12.31-investment-report.pdf" target="blank">2014.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2015.03.31-investment-report.pdf" target="blank">2015.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2015.06.30-investment-report.pdf" target="blank">2015.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2014</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2014-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2014.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2013.09.30-investment-report.pdf" target="blank">2013.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2013.12.31-investment-report.pdf" target="blank">2013.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2014.03.31-investment-report.pdf" target="blank">2014.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2014.06.30-investment-report.pdf" target="blank">2014.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2013</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2013-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2013.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2012.09.30-investment-report.pdf" target="blank">2012.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2012.12.31-investment-report.pdf" target="blank">2012.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2013.03.31-investment-report.pdf" target="blank">2013.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2013.06.30-investment-report.pdf" target="blank">2013.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2012</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2012-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2012.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2011.09.30-investment-report.pdf" target="blank">2011.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2011.12.31-investment-report.pdf" target="blank">2011.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2012.03.31-investment-report.pdf" target="blank">2012.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2012.06.30-investment-report.pdf" target="blank">2012.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2011</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2011-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2011.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2010.09.30-investment-report.pdf" target="blank">2010.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2010.12.31-investment-report.pdf" target="blank">2010.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2011.03.31-investment-report.pdf" target="blank">2011.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2011.06.30-investment-report.pdf" target="blank">2011.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2010</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2010-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2010.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2009.09.30-investment-report.pdf" target="blank">2009.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2009.12.31-investment-report.pdf" target="blank">2009.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2010.03.31-investment-report.pdf" target="blank">2010.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2010.06.30-investment-report.pdf" target="blank">2010.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2009</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2009-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2009.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2008.09.30-investment-report.pdf" target="blank">2008.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2008.12.31-investment-report.pdf" target="blank">2008.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2009.03.31-investment-report.pdf" target="blank">2009.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2009.06.30-investment-report.pdf" target="blank">2009.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2008</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2008-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2008.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2007.09.30-investment-report.pdf" target="blank">2007.09.30</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2007.12.31-investment-report.pdf" target="blank">2007.12.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2008.03.31-investment-report.pdf" target="blank">2008.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2008.06.30-investment-report.pdf" target="blank">2008.06.30</a>
+            </li>
+          </ul>
+        </div>
+        <h3>2007</h3>
+        <div class="reportRow">
+          <ul class="reportList">
+            <li class="reportListItem">
+              <a href="../_documents/annual-investment-reports/2007-annual-report.pdf" target="_blank">Annual Investment Report</a>
+            </li>
+            <li class="reportListItem">
+              <a href="https://www.peba.sc.gov/sites/default/files/cafr_2007.pdf" target="_blank">CAFR</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2007.03.31-investment-report.pdf" target="blank">2007.03.31</a>
+            </li>
+            <li class="reportListItem">
+              <a href="../_documents/investment-reports/2007.06.30-investment-report.pdf" target="blank">2007.06.30</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- #content -->
+    </div>
+    <!-- #contentContainer -->
+    <div id="footerContainer">
+      <div id="footerWrap">
+        <div id="footer">
+          <div id="footerLeft">
+            <span class="footerTitle">Contact Us</span><br>
+            1201 Main Street, Suite 1510 · Columbia, SC 29201<br>
+            Phone: 803-737-6885<br><br>
+            <a href="../privacy-policy.html" style="
+                  text-decoration: none;
+                  font-weight: bold;
+                  margin-top: 5px 0;
+                ">Privacy Policy</a>
+            |
+            <a href="../site-map.html" style="
+                  text-decoration: none;
+                  font-weight: bold;
+                  margin-top: 5px 0;
+                ">Site Map</a>
+            |
+            <a href="../social-media-policy.html" style="
+                  text-decoration: none;
+                  font-weight: bold;
+                  margin-top: 5px 0;
+                ">Social Media Policy</a>
+          </div>
+          <!-- #footerLeft -->
+          <div id="footerCenter"></div>
+          <!-- #footerCenter -->
+          <div id="footerRight">
+            <span class="footerTitle">Connect with Us</span><br>
+            <a href="https://www.linkedin.com/company/south-carolina-retirement-system-investment-commission" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+            &nbsp;
+            <a href="https://www.youtube.com/playlist?list=PLWggBnJJX7ksfB95gcRpo3MfttYDlRmIy&amp;disable_polymer=true" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+          </div>
+          <!-- #footerRight -->
+        </div>
+        <!-- #footer -->
+        <div id="copyright">
+          Copyright 2017 South Carolina Retirement System Investment
+          Commission. All Rights Reserved
+        </div>
+        <!-- #copyright -->
+      </div>
+      <!-- #footerWrap -->
+    </div>
+    <!-- #footerContainer -->
+  </div>
+  <!-- #pageWrapper -->
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true" style="visibility: visible !important;"></grammarly-desktop-integration></html>
