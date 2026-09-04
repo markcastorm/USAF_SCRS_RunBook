@@ -102,9 +102,12 @@ def scrape_reports():
         # Get all cookies for requests
         session_cookies = driver.get_cookies()
 
-        # Find all report links
-        report_links = driver.find_elements(By.CSS_SELECTOR, ".reportRow .reportListItem a")
-        
+        # Find all report links by URL pattern — resilient to page redesigns
+        report_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/investment-reports/'][href$='.pdf']")
+        if not report_links:
+            print("WARNING: No investment report links found on page. The site may have been redesigned.")
+            return []
+
         to_download = []
         for link in report_links:
             text = link.text.strip()
@@ -114,6 +117,8 @@ def scrape_reports():
             abs_url = urljoin(driver.current_url, href)
             
             q = date_to_quarter(text)
+            if not q and any(c.isdigit() for c in text):
+                print(f"WARNING: Could not parse date from link text '{text}' ({abs_url}) — date format may have changed.")
             if q:
                 if config.MANUAL_DATE:
                     if text == config.MANUAL_DATE:

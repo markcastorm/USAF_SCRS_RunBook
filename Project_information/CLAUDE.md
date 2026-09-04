@@ -77,5 +77,23 @@ Automated pipeline for South Carolina Retirement System (SCRS) investment report
 - **CSV Handling:** Preserving non-standard headers (leading commas, multi-row headers) requires manual line writing combined with Pandas for data rows.
 - **Data Integrity:** The orchestrator's duplicate check ensures the pipeline can be run frequently without corrupting the master file.
 - **PDF Extraction:** `fitz.get_text()` returns words sequentially; `Total Plan` is often followed by the value on the next line.
-- **Footnotes:** Portable Alpha Hedge Funds has a footnote "6" which must be stripped for matching.
+- **Footnotes:** Portable Alpha Hedge Funds has a footnote superscript appended to its label in the PDF (e.g. `Portable Alpha Hedge Funds6` or `Portable Alpha Hedge Funds 6`). Fixed with `re.sub(r'\s*\d+$', '', line)` — strips any trailing digits so it works regardless of footnote number.
 - **Headless Compatibility:** Chrome options configured for both Windows and Docker (Linux).
+- **CSV Row Fusion Bug (fixed):** If the master file did not end with a newline, appending a new row would fuse it onto the last line, causing pandas to see too many fields. Fixed in `file_generator.py` by checking the last byte before appending and writing a newline if missing.
+- **Self-Healing:** The pipeline is fully self-healing. It reads the last quarter from the master, finds all newer reports on the RSIC page (116+ reports going back to 2007), downloads and processes them in chronological order. Running after a long gap requires no manual intervention.
+
+## Robustness Improvements (Session 2)
+
+### `extractor.py`
+- Replaced `line.replace('6', '')` with `re.sub(r'\s*\d+$', '', line)` — strips trailing footnote superscripts of any digit, not just `6`. Handles both `Portable Alpha Hedge Funds6` and `Portable Alpha Hedge Funds 6` formats seen across report history.
+
+### `orchestrator.py`
+- Added post-extraction field validation: warns with the specific missing field names if `extract_from_pdf` returns incomplete data for a quarter. Pipeline continues rather than crashing, but the gap is surfaced immediately.
+
+### `scraper.py`
+- Replaced class-based CSS selector (`.reportRow .reportListItem a`) with URL-pattern selector (`a[href*='/investment-reports/'][href$='.pdf']`). No longer depends on page CSS class names — resilient to site redesigns.
+- Added warning when no links are found (site may have been redesigned).
+- Added warning when a link contains digits but cannot be parsed as a quarter date — catches format changes like `March 31, 2026` vs `2026.03.31` immediately.
+
+### `file_generator.py`
+- Added newline guard before appending: checks the last byte of the master CSV and writes `\n` if missing, preventing row fusion.

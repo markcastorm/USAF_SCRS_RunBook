@@ -1,5 +1,6 @@
 import fitz
 import os
+import re
 import config
 
 def extract_from_pdf(pdf_path):
@@ -34,9 +35,9 @@ def extract_from_pdf(pdf_path):
     # 2. Extract Allocation Data
     asset_classes = list(config.ASSET_CLASS_MAP.keys())
     for i, line in enumerate(all_text_lines):
-        clean_line = line.replace('6', '').strip()
+        clean_line = re.sub(r'\s*\d+$', '', line).strip()
         for ac in asset_classes:
-            if clean_line == ac or (ac == "Portable Alpha Hedge Funds" and "Portable Alpha Hedge Funds" in clean_line):
+            if clean_line == ac:
                 found_pcts = []
                 for j in range(i + 1, min(i + 10, len(all_text_lines))):
                     next_val = all_text_lines[j].strip()

@@ -25,6 +25,9 @@ def run_pipeline():
         print(f"Processing {pdf_path} for quarter {quarter}...")
         extracted = extractor.extract_from_pdf(pdf_path)
         if extracted:
+            missing = [k for k in config.INTERNAL_HEADERS if k not in extracted]
+            if missing:
+                print(f"WARNING: {quarter} is missing {len(missing)} field(s): {missing}")
             extracted['quarter'] = quarter
             all_new_data.append(extracted)
 
