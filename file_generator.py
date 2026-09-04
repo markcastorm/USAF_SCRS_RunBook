@@ -71,7 +71,13 @@ def update_master_data(new_rows):
         print(f"Added quarter {q} to master.")
 
     if updated:
-        # Append new lines to the file
+        # Ensure file ends with a newline before appending
+        with open(config.MASTER_CSV, 'rb+') as f:
+            f.seek(0, 2)
+            if f.tell() > 0:
+                f.seek(-1, 2)
+                if f.read(1) != b'\n':
+                    f.write(b'\n')
         with open(config.MASTER_CSV, 'a', newline='') as f:
             for line in new_lines:
                 f.write(line + "\n")
