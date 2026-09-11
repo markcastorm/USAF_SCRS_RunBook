@@ -2,6 +2,7 @@ import fitz
 import os
 import re
 import config
+from bs4 import BeautifulSoup
 
 def extract_from_pdf(pdf_path):
     """
@@ -65,3 +66,60 @@ def extract_from_pdf(pdf_path):
 
     doc.close()
     return data
+
+
+def extract_from_html(html_path):
+    """
+    Extracts investment data from an HTML report page (new RSIC format).
+    Parses the Exposures table for allocations and market value.
+    """
+    if not os.path.exists(html_path):
+        print(f"Error: HTML not found at {html_path}")
+        return {}
+
+    with open(html_path, 'r', encoding='utf-8') as f:
+        soup = BeautifulSoup(f.read(), 'html.parser')
+
+    data = {}
+    exposures = soup.find('section', {'id': 'exposures'})
+    if not exposures:
+        print(f"Error: Could not find exposures section in {html_path}")
+        return {}
+
+    table = exposures.find('table')
+    if not table:
+        return {}
+
+    for row in table.find_all('tr'):
+        th = row.find('th', scope='row')
+        if not th:
+            continue
+        cells = row.find_all('td')
+        if len(cells) < 3:
+            continue
+
+        label = re.sub(r'\s*\d+$', '', th.get_text(strip=True)).strip()
+        weight = cells[1].get_text(strip=True).replace('%', '').strip()
+        target = cells[2].get_text(strip=True).replace('%', '').strip()
+
+        if target.lower() == 'not applicable':
+            target = 'n/a'
+
+        if label == 'Total Plan':
+            mv = cells[0].get_text(strip=True).replace(',', '').strip()
+            data['SCRS.TOTAL.LEVEL.NONE.Q.1@SCRS'] = mv
+            data['SCRS.TOTAL.ACTUALALLOCATION.NONE.Q.1@SCRS'] = weight
+            data['SCRS.TOTAL.TARGETALLOCATION.NONE.Q.1@SCRS'] = target
+        elif label in config.ASSET_CLASS_MAP:
+            prefix = config.ASSET_CLASS_MAP[label]
+            data[f'SCRS.{prefix}.ACTUALALLOCATION.NONE.Q.1@SCRS'] = weight
+            data[f'SCRS.{prefix}.TARGETALLOCATION.NONE.Q.1@SCRS'] = target
+
+    return data
+
+
+def extract_from_file(file_path):
+    """Dispatches to the correct extractor based on file extension."""
+    if file_path.lower().endswith('.html'):
+        return extract_from_html(file_path)
+    return extract_from_pdf(file_path)

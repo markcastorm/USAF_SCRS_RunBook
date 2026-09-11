@@ -1,0 +1,370 @@
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quarterly Report as of June 30, 2026 | RSIC</title>
+<style>
+:root{--navy:#123b6d;--navy-dark:#0a2a50;--gold:#b98b2f;--ink:#172033;--muted:#52606d;--line:#aab4c2;--soft:#eef3f8;--soft2:#f7f9fb;--focus:#ffbf47;--focus-dark:#061f3b;--policy:#c5cad1;--target:#c00000;--green:#08783e;--negative:#b42318}
+*{box-sizing:border-box}
+html{font-size:100%;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+.skip-link{position:absolute;left:-9999px}
+.skip-link:focus{left:1rem;top:1rem;z-index:999;background:#fff;color:#000;padding:.7rem 1rem;outline:3px solid var(--focus-dark);box-shadow:0 0 0 6px var(--focus)}
+.report{max-width:78rem;margin:0 auto;padding:1rem 1.25rem 3rem}
+.masthead{border-top:.4rem solid var(--gold);border-bottom:.14rem solid var(--gold);display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.55rem 0 .65rem}
+.brand-logo{display:block;width:18rem;max-width:55vw;height:auto}.brand-text{font-size:3rem;font-weight:700;color:var(--navy)}
+.mast-title{font-size:clamp(1.35rem,3vw,2rem);line-height:1.15;color:var(--navy-dark);margin:0;text-align:right;max-width:42rem}
+.lead{font-size:1.03rem;max-width:75ch}
+.contents{background:var(--soft2);border:1px solid var(--line);padding:.75rem 1rem;margin:1rem 0}
+.contents ul{display:flex;flex-wrap:wrap;gap:.35rem 1.2rem;margin:.3rem 0 0;padding-left:1.25rem}
+a{color:#064f9e;text-decoration-thickness:.12em;text-underline-offset:.15em}
+h2 sup a,h2 sup a:visited{color:var(--focus);text-decoration:underline;font-weight:700}
+a:focus-visible,summary:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid var(--focus-dark);box-shadow:0 0 0 5px var(--focus);outline-offset:2px}
+h2{font-size:clamp(1.2rem,3vw,1.55rem);line-height:1.2;color:#fff;background:var(--navy);padding:.4rem .65rem;border-top:.15rem solid var(--gold);margin:1.65rem 0 .75rem}
+.figure{margin:.75rem 0 1rem}.chart{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.grid{stroke:#d9dee5;stroke-width:1}.axis{stroke:#1f2937;stroke-width:1.4}
+.axis-label,.category-label,.legend-label,.axis-title{font-size:14px;fill:#202938}.value-label{font-size:12px;font-weight:700;fill:#111827}
+.plan-bar,.total-bar{fill:var(--navy);stroke:#081d36;stroke-width:1}.policy-bar{fill:url(#policy-pattern);stroke:#2f3237;stroke-width:1}
+.target-line{stroke:var(--target);stroke-width:3}.benefit-bar{fill:#d1d5db;stroke:#4b5563;stroke-width:1}
+.performance-bar-positive{fill:var(--green);stroke:#064e2a;stroke-width:1}.performance-bar-negative{fill:var(--negative);stroke:#7a271a;stroke-width:1.5}.connector{stroke:#596574;stroke-width:1.5}
+figcaption{font-size:.9rem;color:var(--muted);margin-top:.3rem}
+.table-region{overflow-x:auto;contain:paint;border:1px solid var(--line);margin:.7rem 0 1rem}
+table{border-collapse:collapse;width:100%;min-width:52rem;font-variant-numeric:tabular-nums}
+caption{text-align:left;font-weight:700;font-size:1rem;padding:.6rem;background:var(--soft)}
+th,td{padding:.42rem .5rem;border:1px solid #bcc5d0;text-align:right;vertical-align:top}
+thead th{background:var(--navy);color:#fff;text-align:center}tbody th{text-align:left;background:#eef1f5;font-weight:700}
+tbody tr:nth-child(even) td{background:#fafbfc}.total-row th,.total-row td{font-weight:700;border-top:2px solid var(--navy)}
+.policy-row th,.policy-row td{font-style:italic}.asset-return-row th{padding-left:1.35rem}
+#returns tbody td,#net-benefits tbody td,#exposures tbody td{text-align:center}
+.target-row th,.target-row td{font-style:italic}.compact-table table{min-width:44rem}
+.chart-data{margin:.65rem 0 1rem;border:1px solid var(--line);background:var(--soft2)}
+.chart-data>summary{cursor:pointer;font-weight:700;color:var(--navy-dark);padding:.65rem .8rem}.chart-data[open]>summary{border-bottom:1px solid var(--line)}
+.statute{font-size:.9rem;color:var(--muted)}.notes{padding-left:1.5rem}.notes li{margin:.6rem 0}
+.disclaimer{margin-top:1rem;padding:.8rem;border-left:.32rem solid var(--gold);background:var(--soft2)}.back-top{margin-top:1rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (max-width:44rem){.masthead{display:block}.mast-title{text-align:left;margin-top:.55rem;max-width:none}.category-label{font-size:11px}.value-label{font-size:10px}.table-region{box-shadow:inset -12px 0 12px -14px #000}}
+@media (forced-colors:active){.plan-bar,.total-bar,.policy-bar,.benefit-bar,.performance-bar-positive,.performance-bar-negative{forced-color-adjust:auto}.target-line{stroke:CanvasText}}
+@media print{
+@page{margin:.25in}
+body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.report{max-width:none;padding:0}
+.skip-link,.lead,.contents,.back-top,.chart-data,figcaption{display:none!important}
+.figure{break-inside:avoid}.chart{height:auto;border:.35pt solid var(--line)}
+.table-region{overflow:visible;border:0;break-inside:avoid}table{min-width:0}
+a{color:inherit;text-decoration:none}#notes{break-inside:auto}
+}
+@media print and (orientation:landscape){
+html,body{font-size:7.1pt;line-height:1.08}
+.masthead{padding:.025in 0 .04in;border-top:.055in solid var(--gold);border-bottom:.015in solid var(--gold)}
+.brand-logo{width:1.55in;max-width:none}.mast-title{font-size:9.6pt;line-height:1;margin:0;text-align:right;max-width:none;white-space:nowrap}
+h2{font-size:7.8pt;line-height:1;padding:.02in .04in;border-top:.015in solid var(--gold);margin:.025in 0}
+.figure{margin:0}.returns-chart{width:3.66in;max-width:100%;margin:0 auto}.contributions-chart{width:1.98in;max-width:100%;margin:0 auto}
+.table-region{margin:.015in 0}table{font-size:5.85pt;line-height:1.01}caption{font-size:6.1pt;line-height:1;padding:.018in .03in}
+th,td{padding:.012in .025in;border:.3pt solid #aeb7c2}thead th{font-size:5.6pt}
+#net-benefits table{font-size:6.2pt}#exposures table{font-size:5.9pt}
+.notes{columns:3;column-gap:.12in;padding-left:.13in;margin:.01in 0;font-size:5.25pt;line-height:1.08}
+.notes li{margin:0 0 .018in;break-inside:avoid}.statute{font-size:5.3pt;margin:.015in 0}
+.disclaimer{font-size:5.15pt;line-height:1.02;margin:.008in 0 0;padding:.018in .03in;border-left:.04in solid var(--gold)}
+section{break-inside:avoid}#notes{break-inside:auto}
+}
+@media print and (orientation:portrait){
+html,body{font-size:7.8pt;line-height:1.08}
+.masthead{padding:.025in 0 .04in;border-top:.05in solid var(--gold);border-bottom:.015in solid var(--gold)}
+.brand-logo{width:1.7in;max-width:none}.mast-title{font-size:10pt;line-height:1;margin:0;text-align:right;max-width:none;white-space:nowrap}
+h2{font-size:8.2pt;line-height:1;padding:.022in .04in;border-top:.016in solid var(--gold);margin:.026in 0 .022in}
+.figure{margin:0}.returns-chart{width:7.65in;max-width:100%;margin:0 auto}.contributions-chart{width:7.15in;max-width:100%;margin:0 auto}
+.table-region{margin:.015in 0 .022in}table{font-size:6.15pt;line-height:1.02}caption{font-size:6.25pt;line-height:1;padding:.014in .028in}
+th,td{padding:.011in .021in;border:.3pt solid #aeb7c2}thead th{font-size:5.9pt}
+#returns table{font-size:5.9pt}#net-benefits table{font-size:6.35pt}#exposures table{font-size:6pt}
+.asset-return-row th{padding-left:.09in}
+#returns,#net-benefits,#exposures,#contributions{break-inside:avoid}
+.notes{columns:3;column-gap:.12in;padding-left:.13in;margin:.01in 0;font-size:5.25pt;line-height:1.06}
+.notes li{margin:0 0 .015in;break-inside:avoid}.statute{font-size:5.25pt;margin:.012in 0}
+.disclaimer{font-size:5.15pt;line-height:1.04;margin:.01in 0 0;padding:.018in .028in;border-left:.04in solid var(--gold)}
+}
+
+</style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1328.0" data-gr-ext-installed="">
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<main id="main-content" class="report">
+<header class="masthead" id="top">
+<img class="brand-logo" src="data:image/png;base64,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" alt="Retirement System Investment Commission (RSIC)">
+<h1 class="mast-title">Quarterly Report as of June 30, 2026</h1>
+</header>
+<p class="lead">This accessible web report presents net-of-fee investment returns, Plan market value, asset-class allocation and exposure, and fiscal year-to-date changes in Plan value. Dollar amounts are stated in millions unless otherwise noted.</p>
+<nav class="contents" aria-label="Report contents"><strong>Report contents</strong>
+<ul><li><a href="#returns">Net-of-fee returns</a></li><li><a href="#net-benefits">Net benefits</a></li><li><a href="#exposures">Exposures</a></li><li><a href="#contributions">FYTD contributions</a></li><li><a href="#notes">Notes</a></li></ul></nav>
+<section id="returns" aria-labelledby="returns-heading">
+<h2 id="returns-heading">Net-of-Fee Returns by Time Period<sup><a href="#note-1" aria-label="See note 1">1</a>,<a href="#note-2" aria-label="See note 2">2</a>,<a href="#note-3" aria-label="See note 3">3</a></sup></h2>
+<figure class="figure">
+<svg class="chart returns-chart" viewBox="0 0 1000 350" role="img" aria-labelledby="returns-chart-title" aria-describedby="returns-chart-desc" focusable="false">
+<title id="returns-chart-title">Net-of-fee returns comparison</title>
+<desc id="returns-chart-desc">Grouped bar chart comparing Total Plan and Policy Benchmark returns across seven periods. The 7.00% Current Actuarial Assumed Rate reference line begins at fiscal year-to-date because this is a June 30 report and continues through the 20-year period. Exact values are provided in the table following the chart.</desc>
+<defs><pattern id="policy-pattern" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#c5cad1"></rect><path d="M-2,2 L2,-2 M0,8 L8,0 M6,10 L10,6" fill="none" stroke="#4b5563" stroke-width="2"></path></pattern></defs>
+<line x1="70.0" y1="268.0" x2="978.0" y2="268.0" class="grid"></line>
+<text x="60.0" y="272.0" text-anchor="end" class="axis-label">0%</text>
+<line x1="70.0" y1="210.5" x2="978.0" y2="210.5" class="grid"></line>
+<text x="60.0" y="214.5" text-anchor="end" class="axis-label">5%</text>
+<line x1="70.0" y1="153.0" x2="978.0" y2="153.0" class="grid"></line>
+<text x="60.0" y="157.0" text-anchor="end" class="axis-label">10%</text>
+<line x1="70.0" y1="95.5" x2="978.0" y2="95.5" class="grid"></line>
+<text x="60.0" y="99.5" text-anchor="end" class="axis-label">15%</text>
+<line x1="70.0" y1="38.0" x2="978.0" y2="38.0" class="grid"></line>
+<text x="60.0" y="42.0" text-anchor="end" class="axis-label">20%</text>
+<line x1="70.0" y1="268.0" x2="978.0" y2="268.0" class="axis"></line>
+<line x1="199.7" y1="187.5" x2="978.0" y2="187.5" class="target-line"></line>
+<rect x="92.3" y="175.8" width="28.5" height="92.2" class="plan-bar"></rect>
+<text x="106.6" y="168.8" text-anchor="middle" class="value-label">8.02%</text>
+<rect x="148.9" y="189.5" width="28.5" height="78.5" class="policy-bar"></rect>
+<text x="163.1" y="182.5" text-anchor="middle" class="value-label">6.83%</text>
+<text x="134.9" y="306" text-anchor="middle" class="category-label">Quarter</text>
+<rect x="222.0" y="100.9" width="28.5" height="167.1" class="plan-bar"></rect>
+<text x="236.3" y="93.9" text-anchor="middle" class="value-label">14.53%</text>
+<rect x="278.6" y="107.2" width="28.5" height="160.8" class="policy-bar"></rect>
+<text x="292.8" y="100.2" text-anchor="middle" class="value-label">13.98%</text>
+<text x="264.6" y="306" text-anchor="middle" class="category-label">FYTD</text>
+<rect x="351.7" y="100.9" width="28.5" height="167.1" class="plan-bar"></rect>
+<text x="366.0" y="93.9" text-anchor="middle" class="value-label">14.53%</text>
+<rect x="408.3" y="107.2" width="28.5" height="160.8" class="policy-bar"></rect>
+<text x="422.6" y="100.2" text-anchor="middle" class="value-label">13.98%</text>
+<text x="394.3" y="306" text-anchor="middle" class="category-label">1 Year</text>
+<rect x="481.5" y="128.8" width="28.5" height="139.2" class="plan-bar"></rect>
+<text x="495.7" y="121.8" text-anchor="middle" class="value-label">12.11%</text>
+<rect x="538.0" y="139.3" width="28.5" height="128.7" class="policy-bar"></rect>
+<text x="552.3" y="132.3" text-anchor="middle" class="value-label">11.19%</text>
+<text x="524.0" y="306" text-anchor="middle" class="category-label">3 Years</text>
+<rect x="611.2" y="172.4" width="28.5" height="95.6" class="plan-bar"></rect>
+<text x="625.4" y="165.4" text-anchor="middle" class="value-label">8.31%</text>
+<rect x="667.7" y="192.1" width="28.5" height="75.9" class="policy-bar"></rect>
+<text x="682.0" y="185.1" text-anchor="middle" class="value-label">6.60%</text>
+<text x="653.7" y="306" text-anchor="middle" class="category-label">5 Years</text>
+<rect x="740.9" y="162.6" width="28.5" height="105.4" class="plan-bar"></rect>
+<text x="755.2" y="155.6" text-anchor="middle" class="value-label">9.16%</text>
+<rect x="797.4" y="173.4" width="28.5" height="94.6" class="policy-bar"></rect>
+<text x="811.7" y="166.4" text-anchor="middle" class="value-label">8.23%</text>
+<text x="783.4" y="306" text-anchor="middle" class="category-label">10 Years</text>
+<rect x="870.6" y="189.8" width="28.5" height="78.2" class="plan-bar"></rect>
+<text x="884.9" y="182.8" text-anchor="middle" class="value-label">6.80%</text>
+<rect x="927.1" y="198.0" width="28.5" height="70.0" class="policy-bar"></rect>
+<text x="941.4" y="191.0" text-anchor="middle" class="value-label">6.09%</text>
+<text x="913.1" y="306" text-anchor="middle" class="category-label">20 Years</text>
+<rect x="70" y="329" width="16" height="12" class="plan-bar"></rect><text x="94" y="339" class="legend-label">Total Plan</text>
+<rect x="205" y="329" width="16" height="12" class="policy-bar"></rect><text x="229" y="339" class="legend-label">Policy Benchmark</text>
+<line x1="390" y1="335" x2="416" y2="335" class="target-line"></line><text x="425" y="339" class="legend-label">7.00% Current Actuarial Assumed Rate</text>
+<text x="18" y="153" transform="rotate(-90 18 153)" text-anchor="middle" class="axis-title">Percentage return</text>
+</svg>
+
+<figcaption>Total Plan and Policy Benchmark returns with the Current Actuarial Assumed Rate shown where applicable.</figcaption>
+</figure>
+<div class="table-region" role="region" aria-label="Net-of-fee returns table" tabindex="0">
+<table><caption>Net-of-fee returns through June 30, 2026</caption>
+<thead><tr><th scope="col">Investment</th>
+<th scope="col">Quarter</th>
+<th scope="col">FYTD</th>
+<th scope="col">1 Year</th>
+<th scope="col">3 Years</th>
+<th scope="col">5 Years</th>
+<th scope="col">10 Years</th>
+<th scope="col">20 Years</th>
+</tr></thead><tbody>
+<tr class="total-row"><th scope="row">Total Plan</th><td>8.02%</td><td>14.53%</td><td>14.53%</td><td>12.11%</td><td>8.31%</td><td>9.16%</td><td>6.80%</td></tr>
+<tr class="policy-row"><th scope="row">Policy Benchmark</th><td>6.83%</td><td>13.98%</td><td>13.98%</td><td>11.19%</td><td>6.60%</td><td>8.23%</td><td>6.09%</td></tr>
+<tr class="target-row"><th scope="row">Current Actuarial Assumed Rate</th><td>Not applicable</td><td>7.00%</td><td>7.00%</td><td>7.00%</td><td>7.00%</td><td>7.00%</td><td>7.00%</td></tr>
+<tr class="asset-return-row"><th scope="row">Public Equity</th>
+<td>14.98%</td>
+<td>24.70%</td>
+<td>24.70%</td>
+<td>19.87%</td>
+<td>10.99%</td>
+<td>12.71%</td>
+<td>Not applicable</td>
+</tr>
+<tr class="asset-return-row"><th scope="row">Bonds</th>
+<td>0.53%</td>
+<td>3.03%</td>
+<td>3.03%</td>
+<td>3.54%</td>
+<td>0.15%</td>
+<td>1.77%</td>
+<td>Not applicable</td>
+</tr>
+<tr class="asset-return-row"><th scope="row">Private Equity</th>
+<td>6.07%</td>
+<td>10.07%</td>
+<td>10.07%</td>
+<td>9.07%</td>
+<td>10.79%</td>
+<td>12.44%</td>
+<td>Not applicable</td>
+</tr>
+<tr class="asset-return-row"><th scope="row">Private Debt</th>
+<td>0.64%</td>
+<td>6.06%</td>
+<td>6.06%</td>
+<td>9.03%</td>
+<td>8.86%</td>
+<td>7.64%</td>
+<td>Not applicable</td>
+</tr>
+<tr class="asset-return-row"><th scope="row">Real Assets</th>
+<td>1.68%</td>
+<td>3.13%</td>
+<td>3.13%</td>
+<td>0.93%</td>
+<td>4.95%</td>
+<td>6.18%</td>
+<td>Not applicable</td>
+</tr>
+<tr class="asset-return-row"><th scope="row">Portable Alpha Hedge Funds<sup><a href="#note-6" aria-label="See note 6">6</a></sup></th>
+<td>3.21%</td>
+<td>10.96%</td>
+<td>10.96%</td>
+<td>6.04%</td>
+<td>6.02%</td>
+<td>5.72%</td>
+<td>Not applicable</td>
+</tr>
+</tbody></table></div></section>
+<section id="net-benefits" aria-labelledby="net-benefits-heading">
+<h2 id="net-benefits-heading">Net Benefits by Time Period</h2>
+<div class="table-region compact-table" role="region" aria-label="Net benefit payments table" tabindex="0">
+<table aria-label="Net Benefit Payments by Time Period ($ millions)">
+<thead><tr><th scope="col">Metric</th>
+<th scope="col">Quarter</th>
+<th scope="col">FYTD</th>
+<th scope="col">1 Year</th>
+<th scope="col">3 Years</th>
+<th scope="col">5 Years</th>
+<th scope="col">10 Years</th>
+<th scope="col">20 Years</th>
+</tr></thead><tbody>
+<tr><th scope="row">Net Benefit Payments ($ millions)<sup><a href="#note-7" aria-label="See note 7">7</a></sup></th>
+<td>$129</td>
+<td>$343</td>
+<td>$343</td>
+<td>$712</td>
+<td><span aria-hidden="true">($69)</span><span class="sr-only">negative $69</span></td>
+<td><span aria-hidden="true">($4,531)</span><span class="sr-only">negative $4,531</span></td>
+<td><span aria-hidden="true">($14,273)</span><span class="sr-only">negative $14,273</span></td>
+</tr></tbody></table></div></section>
+<section id="exposures" aria-labelledby="exposures-heading">
+<h2 id="exposures-heading">Exposures by Asset Class<sup><a href="#note-3" aria-label="See note 3">3</a>,<a href="#note-5" aria-label="See note 5">5</a></sup></h2>
+<div class="table-region" role="region" aria-label="Asset class exposures table" tabindex="0">
+<table><caption>Asset-class exposure, policy target, and compliance</caption>
+<thead><tr><th scope="col">Asset Class</th><th scope="col">Exposure ($ millions)</th><th scope="col">Weight</th><th scope="col">Policy Target</th><th scope="col">Difference</th><th scope="col">Allowed Range</th><th scope="col">Compliance</th></tr></thead><tbody>
+<tr class="total-row"><th scope="row">Total Plan</th>
+<td>58,011</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>0.0%</td>
+<td>Not applicable</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Public Equity</th>
+<td>25,015</td>
+<td>43.1%</td>
+<td>43.0%</td>
+<td>0.1%</td>
+<td>30% - 55%</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Bonds</th>
+<td>14,769</td>
+<td>25.5%</td>
+<td>25.0%</td>
+<td>0.5%</td>
+<td>10% - 35%</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Private Equity</th>
+<td>7,712</td>
+<td>13.3%</td>
+<td>12.0%</td>
+<td>1.3%</td>
+<td>5% - 20%</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Private Debt</th>
+<td>4,484</td>
+<td>7.7%</td>
+<td>8.0%</td>
+<td><span aria-hidden="true">-0.3%</span><span class="sr-only">negative 0.3 percent</span></td>
+<td>5% - 13%</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Real Assets</th>
+<td>6,032</td>
+<td>10.4%</td>
+<td>12.0%</td>
+<td><span aria-hidden="true">-1.6%</span><span class="sr-only">negative 1.6 percent</span></td>
+<td>6% - 18%</td>
+<td>Yes</td></tr>
+<tr><th scope="row">Portable Alpha Hedge Funds<sup><a href="#note-6" aria-label="See note 6">6</a></sup></th>
+<td>6,700</td>
+<td>11.5%</td>
+<td>Not applicable</td>
+<td>Not applicable</td>
+<td>0% - 15%</td>
+<td>Yes</td></tr>
+</tbody></table></div></section>
+<section id="contributions" aria-labelledby="contributions-heading">
+<h2 id="contributions-heading">FYTD Contributions to Plan Value<sup><a href="#note-4" aria-label="See note 4">4</a></sup></h2>
+<figure class="figure">
+<svg class="chart contributions-chart" viewBox="0 0 1000 300" role="img" aria-labelledby="contrib-chart-title" aria-describedby="contrib-chart-desc" focusable="false">
+<title id="contrib-chart-title">Fiscal year-to-date contributions to Plan value</title>
+<desc id="contrib-chart-desc">Waterfall chart showing beginning value, net benefit payments, investment performance, and ending value in millions of dollars. Investment performance is positive and increases Plan value. Exact values are available in the expandable data table following the chart.</desc>
+<line x1="94.0" y1="233.0" x2="975.0" y2="233.0" class="grid"></line>
+<text x="84.0" y="237.0" text-anchor="end" class="axis-label">48,000</text>
+<line x1="94.0" y1="199.5" x2="975.0" y2="199.5" class="grid"></line>
+<text x="84.0" y="203.5" text-anchor="end" class="axis-label">50,000</text>
+<line x1="94.0" y1="166.0" x2="975.0" y2="166.0" class="grid"></line>
+<text x="84.0" y="170.0" text-anchor="end" class="axis-label">52,000</text>
+<line x1="94.0" y1="132.5" x2="975.0" y2="132.5" class="grid"></line>
+<text x="84.0" y="136.5" text-anchor="end" class="axis-label">54,000</text>
+<line x1="94.0" y1="99.0" x2="975.0" y2="99.0" class="grid"></line>
+<text x="84.0" y="103.0" text-anchor="end" class="axis-label">56,000</text>
+<line x1="94.0" y1="65.5" x2="975.0" y2="65.5" class="grid"></line>
+<text x="84.0" y="69.5" text-anchor="end" class="axis-label">58,000</text>
+<line x1="94.0" y1="32.0" x2="975.0" y2="32.0" class="grid"></line>
+<text x="84.0" y="36.0" text-anchor="end" class="axis-label">60,000</text>
+<rect x="135.8" y="193.8" width="136.6" height="39.2" class="total-bar"></rect>
+<text x="204.1" y="185.8" text-anchor="middle" class="value-label">$50,339</text>
+<line x1="272.4" y1="193.8" x2="356.1" y2="193.8" class="connector"></line>
+<rect x="356.1" y="188.1" width="136.6" height="5.8" class="benefit-bar"></rect>
+<text x="424.4" y="180.1" text-anchor="middle" class="value-label">$343</text>
+<line x1="492.7" y1="188.1" x2="576.3" y2="188.1" class="connector"></line>
+<rect x="576.3" y="65.3" width="136.6" height="122.8" class="performance-bar-positive"></rect>
+<text x="644.6" y="57.3" text-anchor="middle" class="value-label">$7,329</text>
+<line x1="712.9" y1="65.3" x2="796.6" y2="65.3" class="connector"></line>
+<rect x="796.6" y="65.3" width="136.6" height="167.7" class="total-bar"></rect>
+<text x="864.9" y="57.3" text-anchor="middle" class="value-label">$58,011</text>
+<text x="204.1" y="257" text-anchor="middle" class="category-label">Beginning Value</text>
+<text x="424.4" y="257" text-anchor="middle" class="category-label">Net Benefit Payments</text>
+<text x="644.6" y="257" text-anchor="middle" class="category-label">Investment Performance</text>
+<text x="864.9" y="257" text-anchor="middle" class="category-label">Ending Value</text>
+<text x="28" y="132" transform="rotate(-90 28 132)" text-anchor="middle" class="axis-title">Market value ($ millions)</text>
+</svg>
+
+<figcaption>Fiscal year-to-date change in Plan value. Values are in millions of dollars.</figcaption>
+</figure>
+<details class="chart-data"><summary>View data used in this chart</summary>
+<div class="table-region" role="region" aria-label="Fiscal year-to-date contributions table" tabindex="0">
+<table><caption>Fiscal year-to-date contributions to Plan value ($ millions)</caption>
+<thead><tr><th scope="col">Category</th><th scope="col">Amount ($ millions)</th></tr></thead><tbody>
+<tr><th scope="row">Beginning Value</th><td>$50,339</td></tr>
+<tr><th scope="row">Net Benefit Payments</th><td>$343</td></tr>
+<tr><th scope="row">Investment Performance</th><td>$7,329</td></tr>
+<tr class="total-row"><th scope="row">Ending Value</th><td>$58,011</td></tr>
+</tbody></table></div></details></section>
+<section id="notes" aria-labelledby="notes-heading">
+<h2 id="notes-heading">Notes</h2>
+<p class="statute">Pursuant to S.C. Code Ann. §9-16-90 (A) </p>
+<ol class="notes">
+<li id="note-1">Top-level Plan returns are from Bank of New York Mellon (BNY) and are time-weighted, total return calculations, net of fees and expenses. All returns are expressed in U.S. dollars. Periods greater than one year are annualized. Fiscal Year ends June 30th. Policy benchmark is the blend of the asset class policy benchmarks using policy weights. Asset class benchmarks and policy weights are reviewed annually by the Commission’s consultant, adopted by the Commission, and have changed over time. The policy benchmark return history represents a blend of these past policies.</li>
+<li id="note-2">Effective 7/1/2021 the actuarial assumed rate of return is 7.00% and is composed of an assumed 2.25% inflation rate and an assumed 4.75% real rate of return, net of investment and administrative expenses. Actuarial assumed rate has changed over time.</li>
+<li id="note-3">Asset Class allocations and returns are calculated using values provided by BNY and adjusted for overlay exposures provided by Russell Investments. Asset Class exposures may not add up to 100% due to rounding. Due to portfolio restructuring, asset class performance history may not be available.</li>
+<li id="note-4">Values are in millions. Ending Value may differ slightly from Beginning Value plus Net Benefit Payments and Investment Performance due to rounding.</li>
+<li id="note-5">The Bonds asset class includes the net Short Duration and Cash market value which consists of the aggregate cash held at the custodian, Russell Investments, and the strategic partnerships.</li>
+<li id="note-6">Portable Alpha Hedge Funds are expressed as gross exposure but, as collateral supporting the Overlay program, net to zero when calculating total Plan market value. Performance is expressed net of SOFR as an estimate for Overlay financing costs. There is no allocation to Portable Alpha Hedge Funds in the policy allocation.</li>
+<li id="note-7">Net Benefit Payments are the net of Plan contributions, disbursements, and legislative inflows for the period.</li>
+</ol>
+<p class="disclaimer"><strong>Important:</strong> This report was compiled by staff of the Retirement System Investment Commission and has not been reviewed, approved or verified by the external investment managers. No information contained herein should be used to calculate returns or compare multiple funds, including private equity funds. </p>
+<p class="back-top"><a href="#top">Back to top</a></p>
+</section>
+</main>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true" style="visibility: visible !important;"></grammarly-desktop-integration></html>

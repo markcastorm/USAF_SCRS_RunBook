@@ -23,7 +23,7 @@ def run_pipeline():
         quarter = scraper.date_to_quarter(date_label)
         
         print(f"Processing {pdf_path} for quarter {quarter}...")
-        extracted = extractor.extract_from_pdf(pdf_path)
+        extracted = extractor.extract_from_file(pdf_path)
         if extracted:
             missing = [k for k in config.INTERNAL_HEADERS if k not in extracted]
             if missing:

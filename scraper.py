@@ -102,8 +102,8 @@ def scrape_reports():
         # Get all cookies for requests
         session_cookies = driver.get_cookies()
 
-        # Find all report links by URL pattern — resilient to page redesigns
-        report_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/investment-reports/'][href$='.pdf']")
+        # Find all report links by URL pattern — catches both PDF and HTML report formats
+        report_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/investment-reports/'][href$='.pdf'], a[href*='/investment-reports/'][href$='.html']")
         if not report_links:
             print("WARNING: No investment report links found on page. The site may have been redesigned.")
             return []
@@ -143,7 +143,8 @@ def scrape_reports():
             if not os.path.exists(date_dir):
                 os.makedirs(date_dir)
             
-            filename = f"investment-report-{date_label}.pdf"
+            ext = '.html' if pdf_url.lower().endswith('.html') else '.pdf'
+            filename = f"investment-report-{date_label}{ext}"
             dest_path = os.path.join(date_dir, filename)
             
             if download_file(pdf_url, dest_path, session_cookies):
